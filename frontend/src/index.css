@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply antialiased font-sans;
+    background-color: #FAF8F3;
+    color: #1E3A38;
+  }
+
+  /* Scrollbar — teal on cream */
+  ::-webkit-scrollbar       { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: #F3EDE0; }
+  ::-webkit-scrollbar-thumb { background: #5BBDB5; border-radius: 9999px; }
+  ::-webkit-scrollbar-thumb:hover { background: #2E9A91; }
+}
+
+@layer utilities {
+  /* Cream glass card */
+  .glass-cream {
+    background: rgba(255, 253, 249, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(212, 201, 181, 0.5);
+  }
+
+  /* Teal glass */
+  .glass-teal {
+    background: rgba(46, 154, 145, 0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(91, 189, 181, 0.25);
+  }
+
+  /* Classy card */
+  .card {
+    @apply bg-white rounded-2xl border border-cream-300 shadow-card;
+  }
+
+  /* Active sidebar link shimmer */
+  .nav-active {
+    background: linear-gradient(135deg, #267D75 0%, #2E9A91 100%);
+    box-shadow: 0 4px 16px rgba(46, 154, 145, 0.30);
+  }
+
+  /* Teal button */
+  .btn-teal {
+    @apply bg-teal-600 hover:bg-teal-700 text-white rounded-xl font-medium transition-all duration-200;
+    box-shadow: 0 2px 12px rgba(46, 154, 145, 0.25);
+  }
+  .btn-teal:hover {
+    box-shadow: 0 4px 20px rgba(46, 154, 145, 0.40);
+    transform: translateY(-1px);
+  }
+
+  /* Cream input */
+  .input-cream {
+    @apply bg-cream-100 border border-cream-300 rounded-xl text-teal-900 placeholder-cream-500
+           focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition-all;
+  }
+}

@@ -1,0 +1,1197 @@
+2026-05-26 11:49:43 | INFO     | app.main                       | ============================================================
+2026-05-26 11:49:43 | INFO     | app.main                       | 🚀 Starting AI Multi-Agent Smart Learning Assistant v1.0.0
+2026-05-26 11:49:43 | INFO     | app.main                       |    Environment: development
+2026-05-26 11:49:43 | INFO     | app.main                       |    Debug: True
+2026-05-26 11:49:43 | INFO     | app.main                       |    OpenAI Model: gpt-4o
+2026-05-26 11:49:43 | INFO     | app.main                       | ============================================================
+2026-05-26 11:49:50 | INFO     | watchfiles.main                | 4 changes detected
+2026-05-26 11:49:50 | INFO     | retrieval.vector_store         | ChromaDB initialized: collection='learning_materials' | documents=0 | persist_dir='./data/vectordb'
+2026-05-26 11:49:50 | INFO     | app.main                       | ✅ ChromaDB vector store initialized
+2026-05-26 11:49:50 | INFO     | app.main                       | ✅ Conversation memory initialized
+2026-05-26 11:49:50 | INFO     | app.main                       | ✅ Analytics tracker initialized
+2026-05-26 11:49:50 | INFO     | app.main                       | ✅ LangSmith tracing enabled (project: ai-learning-assistant)
+2026-05-26 11:49:50 | INFO     | app.main                       | ✅ Application startup complete — ready to serve requests
+2026-05-26 11:49:50 | INFO     | app.main                       |    Docs: http://0.0.0.0:8000/docs
+2026-05-26 11:49:51 | INFO     | watchfiles.main                | 21 changes detected
+2026-05-26 11:50:05 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:50:06 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=2ms | ip=127.0.0.1
+2026-05-26 11:50:06 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 11:51:33 | INFO     | api.request                    | GET / | status=200 | latency=2ms | ip=127.0.0.1
+2026-05-26 11:51:33 | WARNING  | api.request                    | GET /favicon.ico | status=404 | latency=0ms | ip=127.0.0.1
+2026-05-26 11:51:42 | INFO     | watchfiles.main                | 441 changes detected
+2026-05-26 11:51:47 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 11:52:17 | INFO     | watchfiles.main                | 57 changes detected
+2026-05-26 11:52:17 | INFO     | app.main                       | 🛑 Shutting down application...
+2026-05-26 11:52:17 | INFO     | app.main                       | ✅ Shutdown complete
+2026-05-26 11:52:19 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 11:52:39 | INFO     | app.main                       | ============================================================
+2026-05-26 11:52:39 | INFO     | app.main                       | 🚀 Starting AI Multi-Agent Smart Learning Assistant v1.0.0
+2026-05-26 11:52:39 | INFO     | app.main                       |    Environment: development
+2026-05-26 11:52:39 | INFO     | app.main                       |    Debug: True
+2026-05-26 11:52:39 | INFO     | app.main                       |    OpenAI Model: gpt-4o
+2026-05-26 11:52:39 | INFO     | app.main                       | ============================================================
+2026-05-26 11:52:39 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:52:40 | INFO     | retrieval.vector_store         | ChromaDB initialized: collection='learning_materials' | documents=0 | persist_dir='./data/vectordb'
+2026-05-26 11:52:40 | INFO     | app.main                       | ✅ ChromaDB vector store initialized
+2026-05-26 11:52:40 | INFO     | app.main                       | ✅ Conversation memory initialized
+2026-05-26 11:52:40 | INFO     | app.main                       | ✅ Analytics tracker initialized
+2026-05-26 11:52:40 | INFO     | app.main                       | ✅ LangSmith tracing enabled (project: ai-learning-assistant)
+2026-05-26 11:52:40 | INFO     | app.main                       | ✅ Application startup complete — ready to serve requests
+2026-05-26 11:52:40 | INFO     | app.main                       |    Docs: http://0.0.0.0:8000/docs
+2026-05-26 11:52:40 | INFO     | watchfiles.main                | 3 changes detected
+2026-05-26 11:52:54 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:54:36 | INFO     | api.request                    | GET / | status=200 | latency=6ms | ip=127.0.0.1
+2026-05-26 11:55:02 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 11:55:02 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 11:55:33 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 11:55:33 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 11:55:47 | INFO     | api.request                    | OPTIONS /api/v1/chat | status=200 | latency=1ms | ip=127.0.0.1
+2026-05-26 11:55:47 | INFO     | api.request                    | OPTIONS /api/v1/chat | status=200 | latency=4ms | ip=127.0.0.1
+2026-05-26 11:55:47 | INFO     | api.request                    | OPTIONS /api/v1/chat | status=200 | latency=1ms | ip=127.0.0.1
+2026-05-26 11:55:47 | INFO     | api.request                    | OPTIONS /api/v1/chat | status=200 | latency=1ms | ip=127.0.0.1
+2026-05-26 11:55:47 | INFO     | api.chat                       | Chat request: session=2a4d2fef | mode=chat | query='Explain machine learning'
+2026-05-26 11:55:47 | INFO     | workflows.main                 | Workflow started: session=2a4d2fef | mode=chat | query='Explain machine learning'
+2026-05-26 11:55:47 | INFO     | api.chat                       | Chat request: session=fee83791 | mode=chat | query='Explain machine learning'
+2026-05-26 11:55:47 | INFO     | workflows.main                 | Workflow started: session=fee83791 | mode=chat | query='Explain machine learning'
+2026-05-26 11:55:47 | INFO     | api.chat                       | Chat request: session=40817554 | mode=chat | query='Explain machine learning'
+2026-05-26 11:55:47 | INFO     | workflows.main                 | Workflow started: session=40817554 | mode=chat | query='Explain machine learning'
+2026-05-26 11:55:47 | INFO     | api.chat                       | Chat request: session=5ad5920c | mode=chat | query='Explain machine learning'
+2026-05-26 11:55:47 | INFO     | workflows.main                 | Workflow started: session=5ad5920c | mode=chat | query='Explain machine learning'
+2026-05-26 11:55:47 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=2a4d2fef-b7ec-44f2-bb49-534b40f238c3 | query='Explain machine learning...'
+2026-05-26 11:55:47 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 0 messages in session
+2026-05-26 11:55:47 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=fee83791-c946-44af-a261-05ec658caf82 | query='Explain machine learning...'
+2026-05-26 11:55:47 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 0 messages in session
+2026-05-26 11:55:47 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=2a4d2fef-b7ec-44f2-bb49-534b40f238c3 | query='Explain machine learning...'
+2026-05-26 11:55:47 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=fee83791-c946-44af-a261-05ec658caf82 | query='Explain machine learning...'
+2026-05-26 11:55:47 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=40817554-ae1e-4d46-acae-87811b372a7c | query='Explain machine learning...'
+2026-05-26 11:55:47 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 0 messages in session
+2026-05-26 11:55:47 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=5ad5920c-97d5-4ebe-b284-aeec4a4f9183 | query='Explain machine learning...'
+2026-05-26 11:55:47 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 0 messages in session
+2026-05-26 11:55:47 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=40817554-ae1e-4d46-acae-87811b372a7c | query='Explain machine learning...'
+2026-05-26 11:55:47 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=5ad5920c-97d5-4ebe-b284-aeec4a4f9183 | query='Explain machine learning...'
+2026-05-26 11:55:49 | WARNING  | langsmith.client               | Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:55:50 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:55:51 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | Supervisor routing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\supervisor_agent.py", line 114, in run
+    response = await self.call_llm(messages, temperature=0.1, max_tokens=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:55:51 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:55:52 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | Supervisor routing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\supervisor_agent.py", line 114, in run
+    response = await self.call_llm(messages, temperature=0.1, max_tokens=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:55:53 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:55:53 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:55:54 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | Supervisor routing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\supervisor_agent.py", line 114, in run
+    response = await self.call_llm(messages, temperature=0.1, max_tokens=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:55:54 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:55:55 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | Supervisor routing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\supervisor_agent.py", line 114, in run
+    response = await self.call_llm(messages, temperature=0.1, max_tokens=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:55:56 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=5ad5920c-97d5-4ebe-b284-aeec4a4f9183 | query='Explain machine learning...'
+2026-05-26 11:55:56 | INFO     | retrieval.vector_store         | ChromaDB initialized: collection='learning_materials' | documents=0 | persist_dir='./data/vectordb'
+2026-05-26 11:55:56 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 11:55:56 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 11:55:56 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=fee83791-c946-44af-a261-05ec658caf82 | query='Explain machine learning...'
+2026-05-26 11:55:56 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 11:55:56 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 11:55:56 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=2a4d2fef-b7ec-44f2-bb49-534b40f238c3 | query='Explain machine learning...'
+2026-05-26 11:55:56 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 11:55:56 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 11:55:56 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=40817554-ae1e-4d46-acae-87811b372a7c | query='Explain machine learning...'
+2026-05-26 11:55:56 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 11:55:56 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 11:55:56 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=5ad5920c-97d5-4ebe-b284-aeec4a4f9183 | query='Explain machine learning...'
+2026-05-26 11:55:56 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=fee83791-c946-44af-a261-05ec658caf82 | query='Explain machine learning...'
+2026-05-26 11:55:56 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=2a4d2fef-b7ec-44f2-bb49-534b40f238c3 | query='Explain machine learning...'
+2026-05-26 11:55:56 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=40817554-ae1e-4d46-acae-87811b372a7c | query='Explain machine learning...'
+2026-05-26 11:55:57 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:55:57 | INFO     | api.request                    | GET /api/v1/documents | status=200 | latency=4ms | ip=127.0.0.1
+2026-05-26 11:55:57 | INFO     | api.request                    | GET /api/v1/documents | status=200 | latency=1ms | ip=127.0.0.1
+2026-05-26 11:55:58 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:55:59 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\generation_agent.py", line 101, in run
+    answer = await self.call_llm(messages, temperature=0.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:00 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:00 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\generation_agent.py", line 101, in run
+    answer = await self.call_llm(messages, temperature=0.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:01 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:01 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:02 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\generation_agent.py", line 101, in run
+    answer = await self.call_llm(messages, temperature=0.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:02 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:03 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\generation_agent.py", line 101, in run
+    answer = await self.call_llm(messages, temperature=0.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:04 | INFO     | api.chat                       | Chat request: session=55050440 | mode=chat | query='Explain machine learning'
+2026-05-26 11:56:04 | INFO     | workflows.main                 | Workflow started: session=55050440 | mode=chat | query='Explain machine learning'
+2026-05-26 11:56:04 | INFO     | api.chat                       | Chat request: session=99c1f440 | mode=chat | query='Explain machine learning'
+2026-05-26 11:56:04 | INFO     | workflows.main                 | Workflow started: session=99c1f440 | mode=chat | query='Explain machine learning'
+2026-05-26 11:56:04 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=5ad5920c-97d5-4ebe-b284-aeec4a4f9183 | query='Explain machine learning...'
+2026-05-26 11:56:05 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:05 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=fee83791-c946-44af-a261-05ec658caf82 | query='Explain machine learning...'
+2026-05-26 11:56:05 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 11:56:05 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:06 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:06 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=2a4d2fef-b7ec-44f2-bb49-534b40f238c3 | query='Explain machine learning...'
+2026-05-26 11:56:06 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:07 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:08 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=40817554-ae1e-4d46-acae-87811b372a7c | query='Explain machine learning...'
+2026-05-26 11:56:08 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:08 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:09 | WARNING  | evaluation.evaluator           | Metric FaithfulnessMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:09 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:09 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:10 | WARNING  | evaluation.evaluator           | Metric FaithfulnessMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:10 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:10 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:11 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:11 | WARNING  | evaluation.evaluator           | Metric FaithfulnessMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:11 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:12 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:12 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:13 | WARNING  | evaluation.evaluator           | Metric AnswerRelevancyMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:13 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=0.70 | relevance=0.70 | precision=0.70 | overall=0.72 | latency=8631ms
+2026-05-26 11:56:13 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=5ad5920c-97d5-4ebe-b284-aeec4a4f9183 | faithfulness=0.70 | relevance=0.70 | confidence=0.72
+2026-05-26 11:56:13 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=8634ms | Evaluation PASSED | confidence=1.00 | faithfulness=0.70 | relevance=0.70
+2026-05-26 11:56:13 | WARNING  | evaluation.evaluator           | Metric FaithfulnessMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:13 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 11:56:13 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:56:14 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:14 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=55050440-1434-48a4-addd-38d9860273ea | query='Explain machine learning...'
+2026-05-26 11:56:14 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 0 messages in session
+2026-05-26 11:56:14 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=99c1f440-a593-453f-a00d-6ac666270e03 | query='Explain machine learning...'
+2026-05-26 11:56:14 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 0 messages in session
+2026-05-26 11:56:14 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=2888ms | ip=127.0.0.1
+2026-05-26 11:56:14 | WARNING  | evaluation.evaluator           | Metric AnswerRelevancyMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:14 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=0.70 | relevance=0.70 | precision=0.70 | overall=0.72 | latency=9362ms
+2026-05-26 11:56:14 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=fee83791-c946-44af-a261-05ec658caf82 | faithfulness=0.70 | relevance=0.70 | confidence=0.72
+2026-05-26 11:56:14 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=9365ms | Evaluation PASSED | confidence=1.00 | faithfulness=0.70 | relevance=0.70
+2026-05-26 11:56:14 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=5ad5920c-97d5-4ebe-b284-aeec4a4f9183 | query='Explain machine learning...'
+2026-05-26 11:56:14 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=5ad5920c
+2026-05-26 11:56:14 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=55050440-1434-48a4-addd-38d9860273ea | query='Explain machine learning...'
+2026-05-26 11:56:14 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=99c1f440-a593-453f-a00d-6ac666270e03 | query='Explain machine learning...'
+2026-05-26 11:56:14 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=fee83791-c946-44af-a261-05ec658caf82 | query='Explain machine learning...'
+2026-05-26 11:56:14 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=fee83791
+2026-05-26 11:56:14 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=45ms | ip=127.0.0.1
+2026-05-26 11:56:14 | INFO     | workflows.main                 | Workflow completed: session=5ad5920c | latency=27083ms | confidence=1.00 | reflections=0
+2026-05-26 11:56:14 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=28ms | ip=127.0.0.1
+2026-05-26 11:56:14 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=27144ms | ip=127.0.0.1
+2026-05-26 11:56:14 | INFO     | workflows.main                 | Workflow completed: session=fee83791 | latency=27158ms | confidence=1.00 | reflections=0
+2026-05-26 11:56:14 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=27563ms | ip=127.0.0.1
+2026-05-26 11:56:14 | INFO     | watchfiles.main                | 4 changes detected
+2026-05-26 11:56:14 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=4ms | ip=127.0.0.1
+2026-05-26 11:56:15 | WARNING  | evaluation.evaluator           | Metric AnswerRelevancyMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:15 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=0.70 | relevance=0.70 | precision=0.70 | overall=0.72 | latency=8469ms
+2026-05-26 11:56:15 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=2a4d2fef-b7ec-44f2-bb49-534b40f238c3 | faithfulness=0.70 | relevance=0.70 | confidence=0.72
+2026-05-26 11:56:15 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=8476ms | Evaluation PASSED | confidence=1.00 | faithfulness=0.70 | relevance=0.70
+2026-05-26 11:56:15 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=2a4d2fef-b7ec-44f2-bb49-534b40f238c3 | query='Explain machine learning...'
+2026-05-26 11:56:15 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=2a4d2fef
+2026-05-26 11:56:15 | INFO     | workflows.main                 | Workflow completed: session=2a4d2fef | latency=27937ms | confidence=1.00 | reflections=0
+2026-05-26 11:56:15 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=27956ms | ip=127.0.0.1
+2026-05-26 11:56:15 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 11:56:16 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:16 | WARNING  | evaluation.evaluator           | Metric AnswerRelevancyMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:16 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=0.70 | relevance=0.70 | precision=0.70 | overall=0.72 | latency=8584ms
+2026-05-26 11:56:16 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=40817554-ae1e-4d46-acae-87811b372a7c | faithfulness=0.70 | relevance=0.70 | confidence=0.72
+2026-05-26 11:56:16 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=8588ms | Evaluation PASSED | confidence=1.00 | faithfulness=0.70 | relevance=0.70
+2026-05-26 11:56:16 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=40817554-ae1e-4d46-acae-87811b372a7c | query='Explain machine learning...'
+2026-05-26 11:56:16 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=40817554
+2026-05-26 11:56:16 | INFO     | workflows.main                 | Workflow completed: session=40817554 | latency=28872ms | confidence=1.00 | reflections=0
+2026-05-26 11:56:16 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=28889ms | ip=127.0.0.1
+2026-05-26 11:56:16 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 11:56:17 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:17 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:18 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | Supervisor routing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\supervisor_agent.py", line 114, in run
+    response = await self.call_llm(messages, temperature=0.1, max_tokens=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:20 | INFO     | watchfiles.main                | 57 changes detected
+2026-05-26 11:56:19 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:20 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | Supervisor routing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\supervisor_agent.py", line 114, in run
+    response = await self.call_llm(messages, temperature=0.1, max_tokens=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:20 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:21 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=99c1f440-a593-453f-a00d-6ac666270e03 | query='Explain machine learning...'
+2026-05-26 11:56:21 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 11:56:21 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 11:56:21 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=55050440-1434-48a4-addd-38d9860273ea | query='Explain machine learning...'
+2026-05-26 11:56:21 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 11:56:21 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 11:56:21 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=99c1f440-a593-453f-a00d-6ac666270e03 | query='Explain machine learning...'
+2026-05-26 11:56:21 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=55050440-1434-48a4-addd-38d9860273ea | query='Explain machine learning...'
+2026-05-26 11:56:22 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:23 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:24 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\generation_agent.py", line 101, in run
+    answer = await self.call_llm(messages, temperature=0.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:25 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:26 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\generation_agent.py", line 101, in run
+    answer = await self.call_llm(messages, temperature=0.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:26 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:28 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=99c1f440-a593-453f-a00d-6ac666270e03 | query='Explain machine learning...'
+2026-05-26 11:56:28 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:29 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=55050440-1434-48a4-addd-38d9860273ea | query='Explain machine learning...'
+2026-05-26 11:56:30 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:33 | WARNING  | evaluation.evaluator           | Metric FaithfulnessMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:34 | WARNING  | evaluation.evaluator           | Metric FaithfulnessMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:36 | WARNING  | evaluation.evaluator           | Metric AnswerRelevancyMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:36 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=0.70 | relevance=0.70 | precision=0.70 | overall=0.72 | latency=8303ms
+2026-05-26 11:56:36 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=99c1f440-a593-453f-a00d-6ac666270e03 | faithfulness=0.70 | relevance=0.70 | confidence=0.72
+2026-05-26 11:56:36 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=8306ms | Evaluation PASSED | confidence=1.00 | faithfulness=0.70 | relevance=0.70
+2026-05-26 11:56:36 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=99c1f440-a593-453f-a00d-6ac666270e03 | query='Explain machine learning...'
+2026-05-26 11:56:36 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=99c1f440
+2026-05-26 11:56:36 | INFO     | workflows.main                 | Workflow completed: session=99c1f440 | latency=31832ms | confidence=1.00 | reflections=0
+2026-05-26 11:56:36 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=31859ms | ip=127.0.0.1
+2026-05-26 11:56:37 | WARNING  | evaluation.evaluator           | Metric AnswerRelevancyMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 11:56:37 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=0.70 | relevance=0.70 | precision=0.70 | overall=0.72 | latency=7286ms
+2026-05-26 11:56:37 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=55050440-1434-48a4-addd-38d9860273ea | faithfulness=0.70 | relevance=0.70 | confidence=0.72
+2026-05-26 11:56:37 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=7290ms | Evaluation PASSED | confidence=1.00 | faithfulness=0.70 | relevance=0.70
+2026-05-26 11:56:37 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=55050440-1434-48a4-addd-38d9860273ea | query='Explain machine learning...'
+2026-05-26 11:56:37 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=55050440
+2026-05-26 11:56:37 | INFO     | workflows.main                 | Workflow completed: session=55050440 | latency=32681ms | confidence=1.00 | reflections=0
+2026-05-26 11:56:37 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=32700ms | ip=127.0.0.1
+2026-05-26 11:56:37 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:37 | INFO     | app.main                       | 🛑 Shutting down application...
+2026-05-26 11:56:37 | INFO     | app.main                       | ✅ Shutdown complete
+2026-05-26 11:56:37 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 11:56:44 | INFO     | watchfiles.main                | 4 changes detected
+2026-05-26 11:57:41 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:57:53 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:58:13 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:58:14 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:59:13 | INFO     | app.main                       | ============================================================
+2026-05-26 11:59:13 | INFO     | app.main                       | 🚀 Starting AI Multi-Agent Smart Learning Assistant v1.0.0
+2026-05-26 11:59:13 | INFO     | app.main                       |    Environment: development
+2026-05-26 11:59:13 | INFO     | app.main                       |    Debug: True
+2026-05-26 11:59:13 | INFO     | app.main                       |    OpenAI Model: gpt-4o
+2026-05-26 11:59:13 | INFO     | app.main                       | ============================================================
+2026-05-26 11:59:13 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 11:59:14 | INFO     | retrieval.vector_store         | ChromaDB initialized: collection='learning_materials' | documents=0 | persist_dir='./data/vectordb'
+2026-05-26 11:59:14 | INFO     | app.main                       | ✅ ChromaDB vector store initialized
+2026-05-26 11:59:14 | INFO     | app.main                       | ✅ Conversation memory initialized
+2026-05-26 11:59:14 | INFO     | analytics.tracker              | Loaded 6 analytics events
+2026-05-26 11:59:14 | INFO     | app.main                       | ✅ Analytics tracker initialized
+2026-05-26 11:59:14 | INFO     | app.main                       | ✅ LangSmith tracing enabled (project: ai-learning-assistant)
+2026-05-26 11:59:14 | INFO     | app.main                       | ✅ Application startup complete — ready to serve requests
+2026-05-26 11:59:14 | INFO     | app.main                       |    Docs: http://0.0.0.0:8000/docs
+2026-05-26 11:59:14 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=3ms | ip=127.0.0.1
+2026-05-26 11:59:14 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=5ms | ip=127.0.0.1
+2026-05-26 11:59:14 | INFO     | watchfiles.main                | 3 changes detected
+2026-05-26 12:02:39 | INFO     | api.request                    | GET /api/v1/documents | status=200 | latency=3ms | ip=127.0.0.1
+2026-05-26 12:02:39 | INFO     | api.request                    | GET /api/v1/documents | status=200 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:02:39 | INFO     | api.request                    | GET /api/v1/documents | status=200 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:02:39 | INFO     | api.request                    | GET /api/v1/documents | status=200 | latency=0ms | ip=127.0.0.1
+2026-05-26 12:04:21 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:06:13 | INFO     | api.request                    | OPTIONS /api/v1/chat | status=200 | latency=0ms | ip=127.0.0.1
+2026-05-26 12:06:13 | INFO     | api.chat                       | Chat request: session=e6286111 | mode=chat | query='explain machine learning'
+2026-05-26 12:06:13 | INFO     | workflows.main                 | Workflow started: session=e6286111 | mode=chat | query='explain machine learning'
+2026-05-26 12:06:13 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:13 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 0 messages in session
+2026-05-26 12:06:13 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:14 | WARNING  | langsmith.client               | Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:06:15 | WARNING  | api.request                    | GET /api/v1/history/sessions | status=404 | latency=2ms | ip=127.0.0.1
+2026-05-26 12:06:15 | WARNING  | api.request                    | GET /api/v1/history/sessions | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:06:15 | WARNING  | api.request                    | GET /api/v1/history/sessions | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:06:15 | WARNING  | api.request                    | GET /api/v1/history/sessions | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:06:16 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:16 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | Supervisor routing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\supervisor_agent.py", line 114, in run
+    response = await self.call_llm(messages, temperature=0.1, max_tokens=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:17 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:17 | INFO     | retrieval.vector_store         | ChromaDB initialized: collection='learning_materials' | documents=0 | persist_dir='./data/vectordb'
+2026-05-26 12:06:17 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 12:06:17 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 12:06:17 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:18 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:06:19 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:20 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\generation_agent.py", line 101, in run
+    answer = await self.call_llm(messages, temperature=0.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:20 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:21 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:06:21 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:06:21 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:06:23 | WARNING  | evaluation.evaluator           | Metric FaithfulnessMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:24 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:06:25 | WARNING  | evaluation.evaluator           | Metric AnswerRelevancyMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:25 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=0.70 | relevance=0.70 | precision=0.70 | overall=0.72 | latency=4509ms
+2026-05-26 12:06:25 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=e6286111-b310-435e-a747-ca728fd033c5 | faithfulness=0.70 | relevance=0.70 | confidence=0.72
+2026-05-26 12:06:25 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=4511ms | Evaluation PASSED | confidence=1.00 | faithfulness=0.70 | relevance=0.70
+2026-05-26 12:06:25 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:25 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=e6286111
+2026-05-26 12:06:25 | INFO     | workflows.main                 | Workflow completed: session=e6286111 | latency=11963ms | confidence=1.00 | reflections=0
+2026-05-26 12:06:25 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=11974ms | ip=127.0.0.1
+2026-05-26 12:06:25 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 12:06:26 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:06:30 | INFO     | api.chat                       | Chat request: session=e6286111 | mode=chat | query='explain machine learning'
+2026-05-26 12:06:30 | INFO     | workflows.main                 | Workflow started: session=e6286111 | mode=chat | query='explain machine learning'
+2026-05-26 12:06:30 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:30 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 2 messages in session
+2026-05-26 12:06:30 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:31 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:06:32 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:33 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | Supervisor routing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\supervisor_agent.py", line 114, in run
+    response = await self.call_llm(messages, temperature=0.1, max_tokens=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:34 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:34 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 12:06:34 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 12:06:34 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:34 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:06:36 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:37 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\generation_agent.py", line 101, in run
+    answer = await self.call_llm(messages, temperature=0.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:38 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:39 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:06:39 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:06:39 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:06:41 | WARNING  | evaluation.evaluator           | Metric FaithfulnessMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:42 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:06:43 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:06:43 | WARNING  | evaluation.evaluator           | Metric AnswerRelevancyMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:06:43 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=0.70 | relevance=0.70 | precision=0.70 | overall=0.72 | latency=5453ms
+2026-05-26 12:06:43 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=e6286111-b310-435e-a747-ca728fd033c5 | faithfulness=0.70 | relevance=0.70 | confidence=0.72
+2026-05-26 12:06:43 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=5459ms | Evaluation PASSED | confidence=1.00 | faithfulness=0.70 | relevance=0.70
+2026-05-26 12:06:44 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=e6286111-b310-435e-a747-ca728fd033c5 | query='explain machine learning...'
+2026-05-26 12:06:44 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=e6286111
+2026-05-26 12:06:44 | INFO     | workflows.main                 | Workflow completed: session=e6286111 | latency=13781ms | confidence=1.00 | reflections=0
+2026-05-26 12:06:44 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=13795ms | ip=127.0.0.1
+2026-05-26 12:06:44 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 12:06:44 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:07:02 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:07:02 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:07:02 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=0ms | ip=127.0.0.1
+2026-05-26 12:07:02 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:07:23 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:12:55 | WARNING  | api.request                    | GET /api/v1/history/sessions | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:12:55 | WARNING  | api.request                    | GET /api/v1/history/sessions | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:12:55 | WARNING  | api.request                    | GET /api/v1/history/sessions | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:12:55 | WARNING  | api.request                    | GET /api/v1/history/sessions | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:12:58 | WARNING  | api.request                    | GET /api/v1/history/sessions/sess_abc123def456 | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:13:04 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:13:04 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:13:04 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=1ms | ip=127.0.0.1
+2026-05-26 12:13:04 | WARNING  | api.request                    | GET /api/v1/analytics/dashboard | status=404 | latency=2ms | ip=127.0.0.1
+2026-05-26 12:13:11 | INFO     | api.chat                       | Chat request: session=f44458d4 | mode=chat | query='what is RAG ?'
+2026-05-26 12:13:11 | INFO     | workflows.main                 | Workflow started: session=f44458d4 | mode=chat | query='what is RAG ?'
+2026-05-26 12:13:11 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=f44458d4-3c64-4a19-853e-00072a0e9da1 | query='what is RAG ?...'
+2026-05-26 12:13:11 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 0 messages in session
+2026-05-26 12:13:11 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=f44458d4-3c64-4a19-853e-00072a0e9da1 | query='what is RAG ?...'
+2026-05-26 12:13:13 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:13:13 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:13:14 | ERROR    | agent.SupervisorAgent          | [SupervisorAgent] ERROR | Supervisor routing failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\supervisor_agent.py", line 114, in run
+    response = await self.call_llm(messages, temperature=0.1, max_tokens=512)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:13:15 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=f44458d4-3c64-4a19-853e-00072a0e9da1 | query='what is RAG ?...'
+2026-05-26 12:13:15 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 12:13:15 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 12:13:15 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=f44458d4-3c64-4a19-853e-00072a0e9da1 | query='what is RAG ?...'
+2026-05-26 12:13:15 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:13:17 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | LLM call failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:13:18 | ERROR    | agent.GenerationAgent          | [GenerationAgent] ERROR | Generation failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\generation_agent.py", line 101, in run
+    answer = await self.call_llm(messages, temperature=0.4)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\base_agent.py", line 90, in call_llm
+    response = await self.openai_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2739, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<53 lines>...
+    )
+    ^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1931, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\venv\Lib\site-packages\openai\_base_client.py", line 1716, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:13:18 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=f44458d4-3c64-4a19-853e-00072a0e9da1 | query='what is RAG ?...'
+2026-05-26 12:13:19 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:13:19 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:13:20 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:13:22 | WARNING  | evaluation.evaluator           | Metric FaithfulnessMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:13:23 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:13:23 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:13:24 | WARNING  | evaluation.evaluator           | Metric AnswerRelevancyMetric failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-05-26 12:13:24 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=0.70 | relevance=0.70 | precision=0.70 | overall=0.72 | latency=5437ms
+2026-05-26 12:13:24 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=f44458d4-3c64-4a19-853e-00072a0e9da1 | faithfulness=0.70 | relevance=0.70 | confidence=0.72
+2026-05-26 12:13:24 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=5439ms | Evaluation PASSED | confidence=1.00 | faithfulness=0.70 | relevance=0.70
+2026-05-26 12:13:24 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=f44458d4-3c64-4a19-853e-00072a0e9da1 | query='what is RAG ?...'
+2026-05-26 12:13:24 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=f44458d4
+2026-05-26 12:13:24 | INFO     | workflows.main                 | Workflow completed: session=f44458d4 | latency=13104ms | confidence=1.00 | reflections=0
+2026-05-26 12:13:24 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=13120ms | ip=127.0.0.1
+2026-05-26 12:13:24 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 12:13:25 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:17:55 | INFO     | api.request                    | OPTIONS /api/v1/chat | status=200 | latency=0ms | ip=127.0.0.1
+2026-05-26 12:17:55 | INFO     | api.chat                       | Chat request: session=902fe3ca | mode=chat | query='what is ML'
+2026-05-26 12:17:55 | INFO     | workflows.main                 | Workflow started: session=902fe3ca | mode=chat | query='what is ML'
+2026-05-26 12:17:55 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=902fe3ca-a980-4a82-a865-1848d3eb3d9d | query='what is ML...'
+2026-05-26 12:17:55 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory retrieved: 0 messages in session
+2026-05-26 12:17:55 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Started | session=902fe3ca-a980-4a82-a865-1848d3eb3d9d | query='what is ML...'
+2026-05-26 12:17:57 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:17:58 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] llm_call | {"tokens": 412, "latency_ms": 3165.4}
+2026-05-26 12:17:58 | INFO     | agent.SupervisorAgent          | [SupervisorAgent] Completed | latency=0ms | Routed: intent=explain | reflection=False | primary=generation
+2026-05-26 12:17:58 | INFO     | agent.RetrievalAgent           | [RetrievalAgent] Started | session=902fe3ca-a980-4a82-a865-1848d3eb3d9d | query='what is ML...'
+2026-05-26 12:17:58 | WARNING  | retrieval.hybrid               | Both BM25 and vector search returned no results
+2026-05-26 12:17:58 | ERROR    | agent.RetrievalAgent           | [RetrievalAgent] ERROR | Retrieval failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\harichandana.p.PRODAPT\Documents\AI tutor assessment\FDE_AI-tutor-assessment\backend\app\agents\retrieval_agent.py", line 71, in run
+    f"top_score={scores[0]:.3f if scores else 0:.3f}",
+                 ~~~~~~^^^
+IndexError: list index out of range
+2026-05-26 12:17:58 | INFO     | agent.GenerationAgent          | [GenerationAgent] Started | session=902fe3ca-a980-4a82-a865-1848d3eb3d9d | query='what is ML...'
+2026-05-26 12:17:59 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:18:04 | INFO     | agent.GenerationAgent          | [GenerationAgent] llm_call | {"tokens": 580, "latency_ms": 5671.6}
+2026-05-26 12:18:04 | INFO     | agent.GenerationAgent          | [GenerationAgent] Completed | latency=5674ms | Generated 2551 chars | intent=explain
+2026-05-26 12:18:04 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Started | session=902fe3ca-a980-4a82-a865-1848d3eb3d9d | query='what is ML...'
+2026-05-26 12:18:05 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:18:05 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:18:06 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:18:16 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:18:16 | INFO     | watchfiles.main                | 1 change detected
+2026-05-26 12:18:28 | INFO     | evaluation.evaluator           | Evaluation complete | faithfulness=1.00 | relevance=1.00 | precision=0.70 | overall=0.93 | latency=23561ms
+2026-05-26 12:18:28 | INFO     | evaluation                     | Evaluation ✅ PASSED | session=902fe3ca-a980-4a82-a865-1848d3eb3d9d | faithfulness=1.00 | relevance=1.00 | confidence=0.93
+2026-05-26 12:18:28 | INFO     | agent.ReviewerAgent            | [ReviewerAgent] Completed | latency=23564ms | Evaluation PASSED | confidence=1.00 | faithfulness=1.00 | relevance=1.00
+2026-05-26 12:18:28 | INFO     | agent.MemoryAgent              | [MemoryAgent] Started | session=902fe3ca-a980-4a82-a865-1848d3eb3d9d | query='what is ML...'
+2026-05-26 12:18:28 | INFO     | agent.MemoryAgent              | [MemoryAgent] Completed | latency=0ms | Memory updated for session=902fe3ca
+2026-05-26 12:18:28 | INFO     | workflows.main                 | Workflow completed: session=902fe3ca | latency=32559ms | confidence=1.00 | reflections=0
+2026-05-26 12:18:28 | INFO     | api.request                    | POST /api/v1/chat | status=200 | latency=32573ms | ip=127.0.0.1
+2026-05-26 12:18:28 | INFO     | watchfiles.main                | 2 changes detected
+2026-05-26 12:18:28 | WARNING  | langsmith.client               | Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+2026-05-26 12:18:48 | INFO     | watchfiles.main                | 1 change detected
