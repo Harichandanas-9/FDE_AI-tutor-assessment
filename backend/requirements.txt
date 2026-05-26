@@ -67,6 +67,3 @@ pytest==8.2.0
 pytest-asyncio==0.23.7
 pytest-cov==5.0.0
 
-# --- Analytics ---
-pandas==2.2.2
-matplotlib==3.8.4
